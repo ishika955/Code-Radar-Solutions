@@ -4,7 +4,7 @@
 int main() {
     int n ;  // Height of the pyramid (number of rows)
 
-   scanf("%d",n);
+   scanf("%d",&n);
     // Upper half of the palindromic pyramid
     for (int i = 1; i <= n; i++) {
         // Print leading spaces for centering
