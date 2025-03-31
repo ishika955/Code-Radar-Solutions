@@ -12,7 +12,7 @@ int main() {
         for (int j = 1; j <= i; j++) {
             // Print alternating 1 and 0
             if ((i + j) % 2 == 0) {
-                printf("1");
+                printf("1 ");
             } else {
                 printf("0");
             }
